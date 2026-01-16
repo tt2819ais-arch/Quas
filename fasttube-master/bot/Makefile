@@ -4,7 +4,7 @@ install:
 
 
 run-local:
-	poetry run python -m src.run --reload
+	PYTHONPATH=. poetry run python -m src.run --reload
 
 lint:
 	poetry run flake8
