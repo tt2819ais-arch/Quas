@@ -7,7 +7,7 @@ from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
     api_v1_prefix: str = "/api/v1"
-    telegram_api_key: str = os.environ.get("telegram_api_key")
+    telegram_api_key: str = os.environ.get("5680618930:AAE2ZkFugGrHe6x4sErtdGmiYIA0sn-A7_I")
 
     db_host: str = Field(default='localhost', alias='DB_HOST')
     db_port: int = Field(default=5432, alias='DB_PORT')
